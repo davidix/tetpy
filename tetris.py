@@ -10,6 +10,7 @@ colors = [
     (180, 34, 22),
     (180, 34, 122),
 ]
+
 class Figure:
     x = 0
     y = 0
@@ -124,6 +125,7 @@ class Tetris:
         self.figure.rotate()
         if self.intersects():
             self.figure.rotation = old_rotation
+
 
 
 # Initialize the game engine
